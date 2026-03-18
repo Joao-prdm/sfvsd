@@ -1,0 +1,56 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #000;
+}
+
+/* Header e Footer */
+header, footer {
+    background-color: #b22222; /* vermelho parecido com a imagem */
+    text-align: left;
+    padding: 20px;
+}
+
+.header-footer-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 20px;
+}
+
+/* Conteúdo principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.album-cover img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+/* Lista de músicas */
+.tracklist {
+    list-style-type: disc;
+}
+
+.tracklist li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.tracklist li ul {
+    list-style-type: circle;
+    margin-top: 5px;
+}
